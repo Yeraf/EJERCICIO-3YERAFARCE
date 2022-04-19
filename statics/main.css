@@ -6,7 +6,9 @@
 :root {
     --color--yellow: #efda44;
     --color--violet: #fb78fe;
-    --color--background: #04f887;
+    --color--background: #0e575f;
+    --color--home: #9dd5ff;
+    --color--h1: #00377c;
 }
 
 html {
@@ -22,6 +24,35 @@ html {
 
 .link a {
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
+}
+
+.home {
+    color: var(--color--home);
+}
+
+.home:hover {
+    color: #d80a9a;
+}
+
+.marca {
+    color: var(--color--yellow);
+}
+
+.marca:hover {
+    color: green;
+}
+
+.as {
+    color: var(--color--violet);
+}
+
+.as:hover {
+    color: red;
+}
+
+h1 {
+    padding: 10px;
+    color: var(--color--h1);
 }
