@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --color--yellow: #efda44;
+    --color--violet: #fb78fe;
+    --color--background: #04f887;
+}
+
+html {
+    background: #20dbd8;
+}
+
+.link {
+    display: flex;
+    justify-content: left;
+    background: var(--color--background);
+    padding: 30px;
+}
+
+.link a {
+    padding-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
